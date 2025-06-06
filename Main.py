@@ -1,35 +1,3 @@
-# app.py
-'''
-import streamlit as st
-
-st.set_page_config(page_title="AI Shakespeare", page_icon="🎭", layout="centered")
-
-st.markdown(
-    "<h1 style='text-align:center; font-weight:bold; font-size:40px;'>"
-    "AI Shakespeare</h1>",
-    unsafe_allow_html=True
-)
-
-st.markdown(
-    "<p style='text-align:center; font-size:18px;'>"
-    "Welcome to AI Shakespeare! Choose one of the pages from the sidebar:"
-    "</p>",
-    unsafe_allow_html=True
-)
-
-st.markdown("---")
-st.markdown(
-    """
-- **Translate**: Turn modern sentences into two‐line Shakespearean verse (happy/sad).  
-- **Insult/Complement Generator**: Get a Bard‐style insult or complement for any target.  
-- **Sonnet Writer**: Generate a full 14‐line Shakespearean‐style sonnet.  
-- **Advice Giver**: Ask any question and receive advice in Shakespearean English.
-"""
-)
-'''
-# app.py
-# app.py
-
 import streamlit as st
 
 st.set_page_config(
